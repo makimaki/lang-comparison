@@ -1,0 +1,10 @@
+{
+  "simulation": "linebot.LineBotSimulation",
+  "simulationId": "linebotsimulation",
+  "start": 1593579078797,
+  "description": "",
+  "scenarios": ["All Check"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,6 @@
+﻿Language,Memory used(before),Threads(before),Memory used(after),Threads(after),Max memory used,Slowest (ms),Fastest (ms),Average (ms),Requests/sec
+Go(Gin),3 MB,7,8 MB,25,20.3 MB,60442 (OK=59762  KO=60442 ),0 (OK=0      KO=2     ),5308 (OK=975    KO=11947 ),208.333 (OK=126.067 KO=82.267)
+Rust(actix-web),1.4 MB,6,17.2 MB,6,21 MB,68979 (OK=62479  KO=68979 ),0 (OK=0      KO=1353  ),11921 (OK=307    KO=18649 ),155.28 (OK=56.957 KO=98.323)
+Scala(Java11 + Scala 2.13.x + Play 2.7.x),198.9 MB,28,385.2 MB,29,480 MB,66231 (OK=60753  KO=66231 ),1 (OK=1      KO=1225  ),10792 (OK=1311   KO=17144 ),172.414 (OK=69.166 KO=103.248)
+Scala(Java8 + Scala 2.11.x + Scalatra 2.7.x),129.8 MB,29,609.6 MB,214,679.5 MB,66897 (OK=55690  KO=66897 ),0 (OK=0      KO=2     ),5956 (OK=2054   KO=14220 ),183.824 (OK=124.868 KO=58.956)
+Scala(Java11 + Scala 2.13.x + Scalatra 2.7.x),105.9 MB,35,441.9 MB,127,449.2 MB,70018 (OK=59871  KO=70018 ),0 (OK=0      KO=1497  ),6522 (OK=1391   KO=15647 ),172.414 (OK=110.359 KO=62.055)

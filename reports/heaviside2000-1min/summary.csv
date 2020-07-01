@@ -1,0 +1,11 @@
+﻿Language,Memory used(before),Threads(before),Memory used(after),Threads(after),Max memory used,Slowest,Fastest,Average,Requests/sec
+Go(Gin),2.8 MB,6,5.5 MB,8,14 MB,38 ms,0 ms,1 ms,169.492
+Rust(actix-web),1.4 MB,6,15.1 MB,6,18.8 MB,68 ms,0 ms,1 ms,169.492
+Scala(Java8 + Scala 2.13.x + Play 2.7.x),214.7 MB,24,346.7 MB,23,400 MB,78 ms,0 ms,2 ms,169.492
+Scala(Java11 + Scala 2.13.x + Play 2.7.x),192.4 MB,28,371.5 MB,28,425.5 MB,129 ms,0 ms,2 ms,169.492
+Scala(Java8 + Scala 2.11.x + Scalatra 2.7.x),131.4 MB,29,141.1 MB,33,268.5 MB,26 ms,0 ms,2 ms,169.492
+Scala(Java8 + Scala 2.12.x + Scalatra 2.7.x),133.2 MB,29,383.7 MB,30,465.8 MB,37 ms,0 ms,2 ms,169.492
+Scala(Java8 + Scala 2.13.x + Scalatra 2.7.x),131.9 MB,29,276.4 MB,30,331.8 MB,32 ms,0 ms,2 ms,169.492
+Scala(Java11 + Scala 2.11.x + Scalatra 2.7.x),104.3 MB,35,267.1 MB,36,336 MB,31 ms,0 ms,2 ms,169.492
+Scala(Java11 + Scala 2.12.x + Scalatra 2.7.x),102.8 MB,35,274.7 MB,36,352.7 MB,44 ms,0 ms,2 ms,169.492
+Scala(Java11 + Scala 2.13.x + Scalatra 2.7.x),103.8 MB,35,278.2 MB,35,344.6 MB,31 ms,0 ms,1 ms,169.492

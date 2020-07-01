@@ -1,0 +1,4 @@
+﻿Language,Slowest (ms),Fastest (ms),Average (ms),Requests/sec
+Go(Gin),760 (OK=760    KO=-     ),0 (OK=0      KO=-     ),4 (OK=4      KO=-     ),305.085 (OK=305.085 KO=-     )
+Rust(actix-web),66001 (OK=60030  KO=66001 ),0 (OK=0      KO=1446  ),7564 (OK=495    KO=14421 ),144 (OK=70.904 KO=73.096)
+Scala(Java8 + Scala 2.11.x + Scalatra 2.7.x),1882 (OK=1882   KO=-     ),0 (OK=0      KO=-     ),208 (OK=208    KO=-     ),305.085 (OK=305.085 KO=-     )
