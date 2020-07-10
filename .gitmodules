@@ -1,0 +1,9 @@
+[submodule "scala-study"]
+	path = scala-study
+	url = git@github.com:sakamaki-albert/scala-study
+[submodule "rust-study"]
+	path = rust-study
+	url = git@github.com:sakamaki-albert/rust-study
+[submodule "go-study"]
+	path = go-study
+	url = git@github.com:sakamaki-albert/go-study
